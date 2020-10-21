@@ -1,0 +1,1 @@
+web : gnuinicorn app:app

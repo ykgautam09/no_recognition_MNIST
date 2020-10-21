@@ -1,0 +1,7 @@
+numpy~=1.18.5
+matplotlib~=3.3.2
+flask~=1.1.2
+pillow~=8.0.0
+pandas~=1.1.3
+scikit-learn~=0.23.2
+gnunicorn~=20.0.4

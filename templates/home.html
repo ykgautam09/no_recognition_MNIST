@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/design.css">
+    <link rel="favicon" href="static/favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+    </style>
+    <title>Home:Handwritten Digit Recognition System</title>
+</head>
+
+<body>
+    <div>
+        <div class="base">
+            <h1>HAND WRITTEN DIGIT RECOGNITION SYSTEM</h1>
+            <p>
+                this project 'HAND WRITTEN DIGIT RECOGNITION SYSTEM' solves The MNIST handwritten digit classification
+                problem is a standard dataset used in computer vision and deep learning by using
+                kNeighbourClassifier,lazy learning through MNIST dataset maintained by professor YannLecun at
+                yann.lecun.com .
+            </p>
+        </div>
+        <div class="box">
+            <div class="box_left">
+                <marquee onmouseover="this.stop()" onmouseout="this.start()" style="font-family: satisfy" behavior=""
+                    direction="left">
+                    <li>The digit images in the MNIST set were originally selected and experimented with by Chris Burges
+                        and Corinna Cortes using bounding-box normalization and centering</li>
+                </marquee>
+                <marquee onmouseover="this.stop()" onmouseout="this.start()" style="font-family: satisfy" behavior=""
+                    direction="left">
+                    <li>MNIST dataset basically originated from dataset generated from NIST </li>
+                </marquee>
+                <marquee onmouseover="this.stop()" onmouseout="this.start()" style="font-family: satisfy" behavior=""
+                    direction="left">
+                    <li>This project is building block of various system ,as in application of recognising plate no of
+                        vehicles,cheque no, etc. </li>
+                </marquee>
+            </div>
+            <div class="box_right">
+                <form id='Form' enctype="multipart/form-data" method="POST" action="/">
+                    SELECT FILE <br>
+                    <input name="image_file" type="file" accept="image/*"><br>
+                    <button formtarget="/"> SUBMIT</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="result">
+            <h2>YOUR RESULT WILL SHOW HERE :{{msg}} </h2>
+        </div>
+
+        <div class="navigation">
+            <a href="#Home">Home</a>
+            <a href="#Contact-Us">Contact Us</a>
+            <a href="#About-Us">About Us</a>
+            <p>&copy copyright 2019 <br> All right reserved
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>

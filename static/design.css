@@ -1,0 +1,123 @@
+body {
+    color: black;
+    background-color: rgb(183, 205, 214);
+    padding:0 35px 0 ;
+}
+
+.base h1 {
+    text-align: center;
+    font-family: alegreya, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: red;
+    margin: 50px 0px 20px;
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+
+.base p {
+    font-size: 18px;
+    font-family: catamaran, sarif;
+    margin: 10px 40px 20px;
+    padding: 20px 10px 10px 10px;
+}
+
+.box {
+    width:100%;
+    color: brown;
+}
+
+.box_left {
+    width: 50%;
+    float: left;
+}
+
+.box_left li {
+    font-size: 20px;
+}
+
+.box_right {
+    float: left;
+}
+
+.box_right form {
+    position: relative;
+    width: 300px;
+    margin: 20px 80%;
+}
+
+form input {
+    width: 200px;
+    padding: 1px;
+    background-color: rgb(183, 205, 214)
+}
+
+.box_right button {
+    color: rgb(241, 209, 209);
+    background-color: rgb(8, 102, 5);
+    margin: 0.2em;
+    animation-name: jumpin;
+    animation-duration: 3s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(86, 26, 114)
+}
+
+a:hover {
+    color: rgb(182, 176, 97);
+}
+
+.result {
+    color: rgb(172, 140, 98);
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    padding: 20px;
+}
+
+.navigation {
+    width: 100%;
+    margin: 250px 40px 10px 20px;
+    padding-top: 40px;
+}
+
+.box_right button:hover {
+    color: rgb(148, 141, 109);
+}
+
+.navigation a {
+    position: relative;
+    margin: 14%;
+    width: 100%;
+    font-size: 14px;
+}
+
+.navigation :hover {
+    color: rgb(32, 0, 61);
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0.0;
+    }
+    70% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes jumpin {
+    0% {
+        transform-origin: -100px 0px;
+    }
+    50% {
+        transform-origin: -50px 0;
+    }
+    100% {
+        transform-origin: 0 0;
+    }
+}
