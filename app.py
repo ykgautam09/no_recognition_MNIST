@@ -3,7 +3,6 @@ from PIL import Image
 import pickle
 import png
 import numpy as np
-import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 with open('model.pickle', 'rb') as f:
