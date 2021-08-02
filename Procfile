@@ -1,1 +1,1 @@
-web : gnuinicorn app:app
+web : gunicorn app:app
